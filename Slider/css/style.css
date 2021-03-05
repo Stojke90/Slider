@@ -56,6 +56,7 @@ main {
 #slide {
     overflow: hidden;
     max-width: 826px;
+    width: 100%;
 }
 
 
@@ -111,3 +112,30 @@ footer h5 {
 
 /* end footer */
 
+
+
+/*  responsive  */
+
+@media all and (max-width: 1000px){
+    header {
+        height: 210px;
+    }
+}
+
+@media all and (max-width: 860px){
+    #slide {
+        margin: : 0px 10px;
+    }
+}
+
+@media all and (max-width: 730px){
+    footer {
+        font-size: 100%;
+    }
+}
+
+@media all and (max-width: 630px){
+    header {
+        height: 150px;
+    }
+}
